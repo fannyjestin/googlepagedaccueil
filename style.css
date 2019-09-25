@@ -1,0 +1,168 @@
+/* prochaine fois: pour bien délimiter les blocs mettre .border-flex (créer une classe) 
+et indiquer des couleur*/
+
+
+
+
+body
+{
+	margin: 0;
+	padding:0;
+	font-family: 'roboto', sans-serif;
+}
+
+header
+{
+
+}
+
+/* indication des ul*/
+
+ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover /*pour tous les éléments survolés*/
+{
+	text-decoration: underline;
+	color: grey;
+}
+
+
+/* NAV LISTE */
+
+#nav_bar
+{
+float: right;
+}
+
+#nav_bar li
+{
+ display: inline-block; /* pour aligner les éléments li dans le block nav-bar*/
+ padding: 8px;
+}
+
+
+
+/* GOOGLE */
+
+.google
+{
+text-align: center;
+padding-top: 112px;
+padding-bottom: 20px;
+}
+
+
+
+.form
+{
+text-align: center;
+
+
+}
+
+/* BARRE DE RECHERCHE*/
+
+#form-search 
+{
+width:500px;
+padding: 10 px 20px ;
+height: 40px;
+border-radius: 20px;
+border-width:2px;
+}
+
+.button
+{
+text-align: center;
+line-height: 30px;
+height: 50px;
+font-size: 50px;
+padding:7px 15px;
+}
+
+
+footer
+
+{
+	background-color: #f2f2f2;
+	border-top: solid 1px #e4e4e4;
+	height: 140px;
+	width: 100%;
+	position: absolute; 
+	bottom: 0; 
+
+
+}
+
+
+footer a
+{
+	color: grey;
+}
+
+.footer-left
+{
+	float: left;
+
+}
+
+.footer-left li
+{
+margin:0;
+font-size: 14px;
+color: grey;
+padding-right: 10px;
+flex-wrap: nowrap;
+}
+
+.footer-right
+{
+	float: right;
+
+}
+
+.footer-right li
+{
+margin:0;
+font-size: 14px;
+padding-right: 10px;
+color:grey;
+flex-wrap: nowrap;
+}
+
+
+
+/* Les blocs utilisent par défaut toute la largeur
+Les blocs ont une largeur et une hauteur.
+*/
+
+/* important à retenir : DISPLAY: flex;  -> vertical devient horizontale*/
+
+/*Les liens inline se retrouvent à l'intérieur des lignes*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
